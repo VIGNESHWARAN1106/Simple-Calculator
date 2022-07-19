@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+    .container {
+        width: 300px;
+        background:rgb(233, 96, 176);
+        border-radius: 5px;
+        box-shadow: 0 15px 50px 0 rgba(255, 5, 234, 0.4), 0 15px 20px 0 rgba(228, 43, 228, 0.2);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .resultscreen {
+        height: 110px;
+        width: 100%;
+        position: relative;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background: #fafafa;
+    }
+    input[type='text'] {
+        width: 300px;
+        padding-right: 10px;
+        position: absolute;
+        bottom: 0;
+        border: none;
+        text-align: right;
+        font-size: 40px;
+        color: #000000;
+        background: none;
+    }
+    .line {
+        width: 300px;
+    }
+    input[type='button'] {
+        float: left;
+        font-size: 24px;
+        line-height: 70px;
+        margin: 1;
+        width: 73px;
+        height: 70px;
+        border: none;
+        color: #fafafa;
+        cursor: pointer;
+        outline: none;
+        background: #0e0303;
+    }
+    input[type='reset'] {
+        font-size: 24px;
+        line-height: 50px;
+        margin: 1;
+        width: 300px;
+        color: #fafafa;
+        cursor: pointer;
+        background: #2d2d2d;
+    }
+    input[type='button'][value='0'] {
+        border-bottom-left-radius: 5px;
+    }
+    input[type='button'][value='='] {
+        background: #015a0d;
+        color: #ffffff;
+        border-bottom-right-radius: 5px;
+    }
+    input[type='reset'][value='Clear'] {
+        background: #006800;
+        color: #ffffff;
+    }
